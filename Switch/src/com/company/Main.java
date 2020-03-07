@@ -12,7 +12,7 @@ public class Main {
             System.out.println("Was not 1 or 2");
         }
 
-        int switchValue = 4;
+        int switchValue = 2;
 
         switch(switchValue) {
             case 1:
@@ -28,6 +28,28 @@ public class Main {
             default:
                 System.out.println("Was not 1 or 2");
                 break;
+        }
+
+        char charValue = 'P';
+
+        switch(charValue) {
+            case 'A' :
+                System.out.println("Char: A found");
+                break;
+            case 'B':
+                System.out.println("Char: B found");
+                break;
+            case 'C':
+                System.out.println("Char: C found");
+                break;
+            case 'D':
+                System.out.println("Char: D found");
+                break;
+            case 'E':
+                System.out.println("Char: E found");
+                break;
+            default:
+                System.out.println("ERROR: Char not found");
         }
     }
 }
