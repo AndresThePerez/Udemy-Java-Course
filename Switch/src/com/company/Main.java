@@ -51,5 +51,18 @@ public class Main {
             default:
                 System.out.println("ERROR: Char not found");
         }
+
+        String month = "JANuary";
+
+        switch(month.toLowerCase()) {
+            case "january":
+                System.out.println("Jan");
+                break;
+            case "june":
+                System.out.println("June");
+                break;
+            default:
+                System.out.println("not sure");
+        }
     }
 }
